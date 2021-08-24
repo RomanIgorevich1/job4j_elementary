@@ -11,6 +11,7 @@ public class MathCalculator {
 
     public static double minusAndDiv(double one, double two) {
         return minus(one, two) + div(one, two);
+
     }
 
     public static double totalSum(double first, double second, double one, double two) {
