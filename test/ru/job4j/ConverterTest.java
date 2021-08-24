@@ -16,7 +16,7 @@ public class ConverterTest {
 
     @Test
     public void whenConvert140RblGTo2Dls() {
-        float in = 140;
+        float in = 120;
         float expected = 2;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
