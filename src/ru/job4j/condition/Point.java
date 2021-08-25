@@ -13,7 +13,7 @@ public class Point {
         double rsl = Point.distance(1, 1, 3, 1);
         System.out.println(" result (1, 1) to (3, 1) " + rsl);
         double rsl1 = Point.distance(4, 4, 5, 4);
-        System.out.println(" result (2, 2) to (4, 2) " + rsl1);
+        System.out.println(" result (4, 4) to (5, 4) " + rsl1);
         double rsl2 = Point.distance(5, 3, 8, 2);
         System.out.println(" result (5, 3) to (8, 2) " + rsl2);
     }
