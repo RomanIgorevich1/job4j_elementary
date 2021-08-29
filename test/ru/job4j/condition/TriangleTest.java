@@ -15,11 +15,11 @@ public class TriangleTest {
     }
 
     @Test
-    public void whenExit() {
+    public void whenNotExist() {
         double ab = 3.0;
         double bc = 3.0;
         double ac = 7.0;
-        boolean result = Triangle.notExist(ab, bc, ac);
+        boolean result = Triangle.exist(ab, bc, ac);
         Assert.assertFalse(result);
     }
 }
