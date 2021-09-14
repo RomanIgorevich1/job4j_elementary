@@ -21,9 +21,13 @@ public class DivideBySix {
     }
 
     public static void main(String[] args) {
-        DivideBySix.checkNumber(24);
-        DivideBySix.checkNumber(9);
-        DivideBySix.checkNumber(14);
-        DivideBySix.checkNumber(25);
+        String rsl = DivideBySix.checkNumber(24);
+        System.out.println(rsl);
+        String rsl1 = DivideBySix.checkNumber(9);
+        System.out.println(rsl1);
+        String rsl2 = DivideBySix.checkNumber(14);
+        System.out.println(rsl2);
+        String rsl3 = DivideBySix.checkNumber(25);
+        System.out.println(rsl3);
     }
 }
