@@ -18,7 +18,6 @@ public class ThreeMax {
         if (first == second) {
             result = first;
         }
-
         return result;
     }
 }
