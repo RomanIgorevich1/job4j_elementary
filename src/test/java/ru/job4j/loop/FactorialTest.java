@@ -22,4 +22,5 @@ public class FactorialTest {
         int rsl = Factorial.calc(n);
         Assert.assertEquals(expected, rsl);
     }
+
 }
