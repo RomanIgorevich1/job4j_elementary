@@ -47,11 +47,11 @@ public class ThreeMaxTest {
 
     @Test
     public void firstEqSecond() {
-        int first = 1;
-        int second = 1;
+        int first = 100;
+        int second = 100;
         int third = 10;
         int result = ThreeMax.max(first, second, third);
-        int expected = 1;
+        int expected = 100;
         Assert.assertEquals(result, expected);
     }
 
