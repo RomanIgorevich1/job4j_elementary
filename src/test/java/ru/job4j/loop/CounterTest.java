@@ -22,4 +22,5 @@ public class CounterTest {
         int rsl = Counter.sumByEven(start, finish);
         Assert.assertEquals(expected, rsl);
     }
+
 }
