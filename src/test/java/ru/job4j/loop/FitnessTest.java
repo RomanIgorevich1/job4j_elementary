@@ -37,7 +37,7 @@ public class FitnessTest {
     public void whenIvanEqualsNik() {
         int ivan = 90;
         int nik = 90;
-        int expected = 0;
+        int expected = 1;
         int rsl = Fitness.calc(ivan, nik);
         Assert.assertEquals(expected, rsl);
     }
