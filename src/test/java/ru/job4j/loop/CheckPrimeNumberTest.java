@@ -26,4 +26,5 @@ public class CheckPrimeNumberTest {
         boolean rsl = CheckPrimeNumber.check(number);
         Assert.assertFalse(rsl);
     }
+
 }
