@@ -28,4 +28,5 @@ public class PrimeNumberTest {
         int rsl = PrimeNumber.calc(finish);
         Assert.assertEquals(expected, rsl);
     }
+
 }
