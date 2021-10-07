@@ -6,4 +6,5 @@ public class ArrayDefinition {
         String[] surname = new String[100500];
         float[] prices = new float[40];
     }
+
 }
