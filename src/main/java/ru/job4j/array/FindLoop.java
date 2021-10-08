@@ -7,10 +7,12 @@ public class FindLoop {
             if (data[num] == el) {
                 rsl = num;
                 break;
-            } else {
-                return rsl;
             }
         } return rsl;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(indexOf(new int[]{5, 4, 3, 2}, 2));
     }
 
 }
