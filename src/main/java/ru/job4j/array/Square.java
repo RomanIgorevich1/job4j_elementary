@@ -5,7 +5,8 @@ public class Square {
         int[] rst = new int[bound];
         for (int i = 0; i < rst.length; i++) {
             rst[i] = i * i;
-        } return rst;
+        }
+        return rst;
     }
 
     public static void main(String[] args) {
