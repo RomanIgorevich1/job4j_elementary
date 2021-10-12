@@ -22,6 +22,5 @@ public class SwitchArray {
         for (int index : rsl) {
             System.out.println(index);
         }
-
     }
 }
