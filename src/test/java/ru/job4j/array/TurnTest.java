@@ -30,4 +30,5 @@ public class TurnTest {
         int[] result = Turn.back(input);
         Assert.assertArrayEquals(expected, result);
     }
+
 }
