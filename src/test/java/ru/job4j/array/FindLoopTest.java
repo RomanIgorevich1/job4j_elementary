@@ -15,12 +15,11 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas1() {
+    public void whenArrayHasNo6ThenMinus1() {
         int[] data = {5, 4, 3, 2};
         int el = 6;
         int result = FindLoop.indexOf(data, el);
         int expected = -1;
         Assert.assertEquals(expected, result);
-
     }
 }
