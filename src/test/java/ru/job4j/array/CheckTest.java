@@ -25,7 +25,6 @@ public class CheckTest {
         boolean[] data = new boolean[] {false, false, false};
         boolean result = Check.mono(data);
         Assert.assertTrue(result);
-        
     }
 
     @Test
