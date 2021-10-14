@@ -9,11 +9,13 @@ public class FindLoop {
         } return -1;
     }
 
-    public static void main(String[] args) {
-        System.out.println(indexOf(new int[]{5, 4, 3, 2}, 2));
-        System.out.println(indexOf(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, 7));
-        System.out.println(indexOf(new int[]{1, 2, 3, 4, 5, 6, 7, 8}, 10));
-
+    public static int indexOf(int[] data, int el, int start, int finish) {
+        for (int i = start; i <= finish; i++) {
+            if (data[i] == el) {
+                return i;
+            }
+        }
+        return -1;
     }
 
 }
