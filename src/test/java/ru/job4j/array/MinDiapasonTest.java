@@ -35,4 +35,5 @@ public class MinDiapasonTest {
         int result = MinDiapason.findMin(array, start, finish);
         Assert.assertEquals(expected, result);
     }
+
 }
