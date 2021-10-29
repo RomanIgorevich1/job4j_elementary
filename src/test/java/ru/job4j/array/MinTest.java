@@ -29,4 +29,5 @@ public class MinTest {
         int result = Min.findMin(array);
         Assert.assertEquals(expected, result);
     }
+
 }
