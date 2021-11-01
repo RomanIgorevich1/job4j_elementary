@@ -29,5 +29,4 @@ public class SortSelectedTest {
         int[] result = SortSelected.sort(data);
         Assert.assertArrayEquals(expected, result);
     }
-
 }
