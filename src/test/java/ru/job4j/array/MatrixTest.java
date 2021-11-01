@@ -23,4 +23,5 @@ public class MatrixTest {
         int[][] result = Matrix.multiple(size);
         Assert.assertArrayEquals(expected, result);
     }
+
 }
