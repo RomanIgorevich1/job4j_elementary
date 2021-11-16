@@ -30,7 +30,7 @@ public class MachineTest {
     public void when50By21() {
         int money = 50;
         int price = 21;
-        int[] expected = {10, 10 , 5, 2, 2};
+        int[] expected = {10, 10, 5, 2, 2};
         int[] result = Machine.change(money, price);
         Assert.assertArrayEquals(expected, result);
     }
