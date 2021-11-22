@@ -43,5 +43,4 @@ public class MachineTest {
         int[] result = Machine.change(money, price);
         Assert.assertArrayEquals(expected, result);
     }
-
 }
