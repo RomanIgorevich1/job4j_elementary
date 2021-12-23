@@ -1,6 +1,4 @@
-package ru.job4j;
-
-import java.sql.SQLOutput;
+package ru.job4j.calculator;
 
 public class ArgMethod {
 

@@ -13,6 +13,5 @@ public class Max {
         System.out.println(rsl1);
         int rsl3 = ru.job4j.condition.Max.max(5, 5);
         System.out.println(rsl3);
-
     }
 }

@@ -10,7 +10,6 @@ public class MatrixCheck {
             }
         }
         return result;
-
     }
 
     public static boolean monoVertical(char[][] board, int column) {
@@ -28,7 +27,6 @@ public class MatrixCheck {
         char[] rsl = new char[board.length];
         for (int i = 0; i < board.length; i++) {
             rsl[i] = board[i][i];
-
         }
         return rsl;
     }
@@ -40,7 +38,6 @@ public class MatrixCheck {
                 result = true;
                 break;
             }
-
         }
         return result;
     }

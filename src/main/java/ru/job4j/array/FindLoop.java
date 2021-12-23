@@ -6,7 +6,8 @@ public class FindLoop {
             if (data[i] == el) {
                 return i;
             }
-        } return -1;
+        }
+        return -1;
     }
 
     public static int indexOf(int[] data, int el, int start, int finish) {
@@ -17,5 +18,4 @@ public class FindLoop {
         }
         return -1;
     }
-
 }

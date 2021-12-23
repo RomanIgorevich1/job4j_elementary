@@ -13,7 +13,6 @@ public class SwitchArray {
         array[source] = array[dest];
         array[dest] = value;
         return array;
-
     }
 
     public static void main(String[] args) {

@@ -80,5 +80,6 @@ public class ChessboardTest {
         int expected = 0;
         int rsl = Chessboard.way(x1, y1, x2, y2);
         Assert.assertEquals(expected, rsl);
+
     }
 }

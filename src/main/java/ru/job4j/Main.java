@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello world!!");
-
     }
 
     public static int way(int x1, int y1, int x2, int y2) {

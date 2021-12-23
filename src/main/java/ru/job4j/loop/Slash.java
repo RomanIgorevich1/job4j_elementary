@@ -17,7 +17,6 @@ public class Slash {
             System.out.println();
         }
         System.out.println();
-
     }
 
     public static void main(String[] args) {
@@ -25,6 +24,5 @@ public class Slash {
         draw(3);
         System.out.println("Draw by 5");
         draw(5);
-
     }
 }

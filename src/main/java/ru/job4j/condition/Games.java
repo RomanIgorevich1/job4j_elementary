@@ -7,7 +7,6 @@ public class Games {
         } else {
             System.out.println("I can't.");
         }
-
     }
 
     public static void main(String[] args) {
@@ -15,6 +14,5 @@ public class Games {
         Games.permission(true, false);
         Games.permission(false, true);
         Games.permission(false, false);
-
     }
 }

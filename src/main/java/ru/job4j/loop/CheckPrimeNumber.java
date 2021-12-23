@@ -8,9 +8,7 @@ public class CheckPrimeNumber {
                 prime = false;
                 break;
             }
-
-            }
-        return prime;
         }
-
+        return prime;
+    }
 }
